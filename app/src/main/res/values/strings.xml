@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Subtitle Burner</string>
+    <string-array name="font_size_array">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+    <string-array name="font_color_array">
+        <item>White</item>
+        <item>Yellow</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="format_array">
+        <item>MP4</item>
+        <item>MKV</item>
+        <item>AVI</item>
+    </string-array>
+    <string-array name="resolution_array">
+        <item>720p</item>
+        <item>1080p</item>
+        <item>4K</item>
+    </string-array>
+    <string-array name="aspect_ratio_array">
+        <item>16:9</item>
+        <item>4:3</item>
+    </string-array>
+    <string-array name="position_array">
+        <item>Bottom</item>
+        <item>Top</item>
+        <item>Custom</item>
+    </string-array>
+    <string-array name="codec_array">
+        <item>libx264</item>
+        <item>libx265</item>
+    </string-array>
+</resources>
