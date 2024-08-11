@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- UI Elements here -->
+
+    <EditText
+        android:id="@+id/start_time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Start Time (seconds)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/end_time_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="End Time (seconds)"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/font_size_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/font_size_array" />
+
+    <Spinner
+        android:id="@+id/font_color_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/font_color_array" />
+
+    <Spinner
+        android:id="@+id/format_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/format_array" />
+
+    <Spinner
+        android:id="@+id/resolution_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/resolution_array" />
+
+    <Spinner
+        android:id="@+id/aspect_ratio_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/aspect_ratio_array" />
+
+    <Spinner
+        android:id="@+id/position_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/position_array" />
+
+    <EditText
+        android:id="@+id/subtitle_delay_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subtitle Delay (ms)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bitrate_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bitrate (kbps)"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/frame_rate_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Frame Rate (fps)"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/codec_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/codec_array" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/burn_subtitle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Burn Subtitles" />
+
+</LinearLayout>
